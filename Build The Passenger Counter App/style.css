@@ -1,0 +1,56 @@
+body{
+    /* background-color: rgba(0, 0, 0, 0); */
+    color:white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    background-image: url("https://img.freepik.com/free-photo/train-railway-station-covered-with-snow-winter_181624-10439.jpg?semt=ais_wordcount_boost&w=740&q=80");
+}
+h1{
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  
+}
+h2{
+    font-size: 2rem;
+    padding: 0%;
+
+}
+
+button{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: transform 0.1s ease-in-out;
+    
+    
+}
+button:hover{
+    
+    transform: scale(1.02);}
+
+#increment-btn{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-top: 2px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#increment-btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: scale(1.02);
+}
+
+p{
+    font-size: 1.5rem;
+}
