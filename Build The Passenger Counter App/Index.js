@@ -19,32 +19,35 @@
 // Console.log the value after each step
 
 
-console.log(100+50+"30")
+// console.log(100+50+"30")
 
-let countEl = document.getElementById("count-el");
-// console.log("countEl is : "+countEl);
+// let countEl = document.getElementById("count-el");
+// // console.log("countEl is : "+countEl);
 
-let count = 0;
-function increment() {
-    // console.log("The button was clicked");
-    count += 1;
-    console.log(count);
-    countEl.innerText = count;
-}
+// let count = 0;
+// function increment() {
+//     // console.log("The button was clicked");
+//     count += 1;
+//     console.log(count);
+//     countEl.innerText = count;
+// }
 
-function save() {
+// function save() {
 
-    console.log(count);
+//     console.log(count);
 
-    let saveEl = document.getElementById("previous-entries");
-    saveEl.textContent += count + " - ";
-    count = 0;
-    countEl.innerText = count;
+//     let saveEl = document.getElementById("previous-entries");
+//     saveEl.textContent += count + " - ";
+//     count = 0;
+//     countEl.textContent = count;
 
     
 
-}
+// }
 
 
-
+const firstName = "Muhammad"
+const lastName  = "Uzair"
+const fullName = firstName +" "+ lastName
+console.log(fullName)
 
