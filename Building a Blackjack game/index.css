@@ -1,0 +1,38 @@
+body{
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+    /* background-repeat: no-repeat; */
+    background-image: url("https://img.freepik.com/free-photo/perfect-green-grass_1122-632.jpg?t=st=1771667004~exp=1771670604~hmac=b59bf37488875956d1c2fb1a2316326ca386bdf59ed81a18caba86504dda0a18&w=1480");
+}
+p{
+   font-size: 2rem;
+}
+
+h1{
+    font-size: 8rem;
+    
+    font-style: oblique;
+    color: rgb(227, 224, 68);
+}
+
+#message-el{
+    font-style: italic;
+}
+#startButton-el{
+    color: #016f32;
+    width: 200px;
+    background: goldenrod;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    font-weight:700;
+    border: none;
+    letter-spacing: .1rem;
+    font-size: 1.2rem;
+    height: 35px;
+    border-radius: 4px;
+}
